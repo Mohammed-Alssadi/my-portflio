@@ -213,6 +213,10 @@ a {
      font-family: "Oleo Script", system-ui;
      font-style: normal;
   }
+    .navbar-mnue a:hover{
+    color:#4a90e2;
+
+    }
 
  
   .mobile-nav-active .mobile-nav-toggle {
@@ -299,8 +303,6 @@ section,
 # Hero Section
 --------------------------------------------------------------*/
 .hero {
-
- 
      background: linear-gradient(rgba(8, 19, 51, 0.726), rgba(9, 4, 17, 0.61)), url("/assets/img/abstract-bg-1.webp") center center no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -594,7 +596,6 @@ background-color: rgba(26, 103, 165, 0.733);
   text-align: center;
   max-width: 800px;
   margin: 0 auto;
-     font-family: "Edu NSW ACT Hand Pre", cursive;
 letter-spacing: 2px;
 }
 .headline {
@@ -609,17 +610,17 @@ font-size: 40px;
 
 .lead {
   font-weight: 700;
-  font-size: 22px;
+  font-size: 25px;
   line-height: 1.8;
   margin-bottom: 24px;
 }
 
 .intro-content p {
   color:rgb(220, 223, 236);
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.8;
   margin-bottom: 24px;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .btnom-viwework {
@@ -646,7 +647,6 @@ margin-left: 30px;
   border-radius: 6px;
   transition: 0.3s ease-in-out;
   background:linear-gradient(rgba(15, 4, 34, 0.856), rgba(2, 7, 82, 0.329));
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 88%);
   height: 100%;
 }
 .about .skill-item i {
@@ -1170,14 +1170,13 @@ max-width: 380px;
     font-size: 1.75rem;
   }
 }
-
 .contact .contact-form p {
   color: color-mix(in srgb, var(--default-color), transparent 25%);
   margin-bottom: 2rem;
 }
 
-.contact .contact-form .form-control,
-.contact .contact-form {
+ .contact-form .form-control,
+.contact-form {
   padding: 0.875rem 1.25rem;
   border-color: color-mix(in srgb, var(--default-color), transparent 90%);
   border-radius: 0.5rem;
@@ -1186,8 +1185,7 @@ max-width: 380px;
 }
 
 
-.contact .contact-form .form-control::placeholder,
-.contact .contact-form .form-select::placeholder {
+.contact .contact-form .form-control::placeholder{
   color: rgb(192, 176, 145);
 }
 

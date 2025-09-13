@@ -126,7 +126,7 @@
               <form id="contact-form" action="https://formsubmit.co/muhamadalssadi@gmail.com" method="POST">
                 <div class="row gy-4">
                   <div class="col-md-6">
-                    <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required  maxlength="40" mainlength="5">
                   </div>
                   <div class="col-md-6">
                     <input type="email" name="email" class="form-control" placeholder="Your Email" required>
@@ -140,7 +140,7 @@
                   </div>
                   <input type="hidden" name="page-url" id="page-url">
                   <div class="col-md-12 text-center">
-                    <div class="loading m-3" style="display:none;">⏳ Sending...</div>
+                    <div class="loading m-3" style="display:none;"> Sending...⏳</div>
                     <div class="sent-message d-none m-3" id="thank-you-message" style="color: rgb(113, 211, 113);">
                        Your message has been sent successfully. Thank you for contacting me!✅
                     </div>
