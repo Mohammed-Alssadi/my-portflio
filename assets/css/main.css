@@ -3,21 +3,21 @@
 
 :root {
 
-  /* الألوان العامة */
+ 
   --background-color: #1b2635;
-  /* خلفية رئيسية داكنة */
-  --default-color: #dbe6f0;
-  /* نص افتراضي فاتح مزرق */
-  --heading-color: #e6f1fa;
-  /* عناوين بلون أفتح للوضوح */
-  --accent-color: #2f6fa8;
-  /* أزرق متوسط للأزرار والروابط */
-  --surface-color: #243447;
-  /* لون للأقسام/البطاقات فوق الخلفية */
-  --contrast-color: #ffffff;
-  /* تباين قوي داخل العناصر الملونة */
 
-  /* ألوان القائمة (Nav) */
+  --default-color: #dbe6f0;
+ 
+  --heading-color: #e6f1fa;
+
+  --accent-color: #2f6fa8;
+
+  --surface-color: #243447;
+
+  --contrast-color: #ffffff;
+ 
+
+
   --nav-color: #dbe6f0;
   --nav-hover-color: #4a90e2;
   --nav-mobile-background-color: #243447;
@@ -333,8 +333,7 @@ section,
   margin: 20px auto;
   max-width: 1500px;
   flex-wrap: wrap;
-  height: 70vh;
-  padding: px;
+ 
   background: linear-gradient(rgba(15, 4, 34, 0.856), rgba(2, 7, 82, 0.329));
   box-shadow: 0 20px 60px rgba(11, 87, 138, 0.6);
   animation: shadowPulse 5s ease-in-out infinite, floatUpDown 3s ease-in-out infinite;
@@ -837,7 +836,6 @@ letter-spacing: .5px;
 .services .service-item:hover .service-icon i {
   transform: rotateY(180deg);
 }
-
 
 .services .service-icon {
   flex-shrink: 0;
